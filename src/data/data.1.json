@@ -1,0 +1,110 @@
+{
+    "objetivos": [
+        {
+            "id": 1,
+            "descricao": "Ganho de Massa",
+            "image": require("../imgs/objetivos/Hipertofria.png"),
+            "musculos": [
+                {
+                    "musculo": "Peito",
+                    "descricao": "Supino reto, supino inclinado, cross-over...",
+                    "imagem": require("../imgs/musculos/peito.png"),
+                    "exercicios": [
+                        {
+                            "key": 1,
+                            "exercicio": "Supino reto barra",
+                            "imagem": require("../imgs/exercicios/supino-reto-barra.png"),
+                            "especificacoes": {
+                                "key": 1,
+                                "exercicio": "Supino reto com barra",
+                                "imagens": [
+                                    require("../imgs/execucoes/supino-reto-barra-1.png"),
+                                    require("../imgs/execucoes/supino-reto-barra-2.png")
+                                ],
+                                "musculosSolicitados": [
+                                    "Peitoral maior",
+                                    "Peitoral menor",
+                                    "Tríceps braquial",
+                                    "Deltoide"
+                                ],
+                                "execucao": "Encostado sobre um banco horizontal, a barra deve ser tomada com as mãos e baixada até a metade do peito. Logo, sem expirar, esta se levanta até que os braços estejam completamente estivados. As escápulas devem juntar-se no ponto baixo, o peito deve manter-se tencionado e os glúteos apoiados sobre o banco e os pés no solo"
+                            }
+                        },
+                        {
+                            "key": 1,
+                            "exercicio": "Supino reto halteres",
+                            "imagem": require("../imgs/exercicios/supino-reto-halteres.png"),
+                            "especificacoes": {}
+                        },
+                        {
+                            "key": 2,
+                            "exercicio": "Supino inclinado halteres",
+                            "imagem": require("../imgs/exercicios/supino-inclinado-halteres.png"),
+                            "especificacoes": {}
+                        },
+                        {
+                            "key": 3,
+                            "exercicio": "Supino declinado halteres",
+                            "imagem": require("../imgs/exercicios/supino-declinado-halteres.png"),
+                            "especificacoes": {}
+                        }
+                    ]
+                },
+                {
+                    "musculo": "Costas",
+                    "descricao": "Pulley costa, remada aberta, remada curvada...",
+                    "imagem": require("../imgs/musculos/costas.png")
+                },
+                {
+                    "musculo": "Ombros",
+                    "descricao": "Elevação lateral, desenvolvimento com halteres, remada alta...",
+                    "imagem": require("../imgs/musculos/ombros.png")
+                },
+                {
+                    "musculo": "Biceps",
+                    "descricao": "Rosca direta, rosca martelo, rosca concentrada...",
+                    "imagem": require("../imgs/musculos/biceps.png")
+                },
+                {
+                    "musculo": "Triceps",
+                    "descricao": "Triceps francês unilateral, triceps corda, tríceps pulley...",
+                    "imagem": require("../imgs/musculos/triceps.png")
+                },
+                {
+                    "musculo": "Pernas",
+                    "descricao": "Leg-press, agachamento, extensor...",
+                    "imagem": require("../imgs/musculos/pernas.png")
+                },
+                {
+                    "musculo": "Abdominais",
+                    "descricao": "Abdominal infra, abdominal supra, abdominal na bola...",
+                    "imagem": require("../imgs/musculos/abdominais.png")
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "descricao": "Aumento de Força",
+            "image": require("../imgs/objetivos/AumentoForca.png"),
+            "musculos": []
+        },
+        {
+            "id": 3,
+            "descricao": "Definição Muscular",
+            "image": require("../imgs/objetivos/Definicao.png"),
+            "musculos": []
+        },
+        {
+            "id": 4,
+            "descricao": "Perca de Peso",
+            "image": require("../imgs/objetivos/PercaDePeso.png"),
+            "musculos": []
+        },
+        {
+            "id": 5,
+            "descricao": "Condicionamento Fisíco",
+            "image": require("../imgs/objetivos/CondicionamentoFisico.png"),
+            "musculos": []
+        }
+    ]
+}

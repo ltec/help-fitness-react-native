@@ -1,0 +1,44 @@
+{
+  "name": "App1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtool": "react-devtools",
+    "storybook": "storybook start"
+  },
+  "dependencies": {
+    "firebase": "^5.3.0",
+    "formik": "^1.1.1",
+    "npm": "^6.4.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-calendars": "^1.19.4",
+    "react-native-config": "^0.11.5",
+    "react-native-fab": "^1.0.7",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-splash-screen": "^3.1.0",
+    "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.5.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-devtools": "^3.2.3",
+    "react-test-renderer": "16.3.1",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "16.3.1",
+    "prop-types": "^15.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

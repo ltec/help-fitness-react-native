@@ -1,0 +1,17 @@
+{
+    "cores": {
+        "primary": "#000000",
+        "secondary": "#e5b03c"
+        },
+    "icones": {
+        "treinos": require("../icons/treinos.png"),
+        "treinosOutline": require("../icons/treinos-outline.png"),
+        "perfil": require("../icons/perfil.png"),
+        "perfilOutline": require("../icons/perfil-outline.png"),
+        "exercicios": require("../icons/exercicios.png"),
+        "exerciciosOutline": require("../icons/exercicios-outline.png"),
+        "agenda": require("../icons/agenda.png"),
+        "agendaOutline": require("../icons/agenda-outline.png"),
+        "plus": require("../icons/plus.png")
+    }
+}
